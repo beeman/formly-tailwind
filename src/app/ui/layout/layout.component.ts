@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
   template: `
+    <ui-header></ui-header>
     <router-outlet></router-outlet>
+    <ui-footer></ui-footer>
   `
 })
-export class AppComponent {}
+export class LayoutComponent {}
